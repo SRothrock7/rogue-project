@@ -1,0 +1,138 @@
+/***================ Base styles ===============***/
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/***================== Grid ===================***/
+
+.full-width {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.half-width {
+    float: left;
+    width: 50%;
+}
+
+.third-width {
+    float: left;
+    height: 210px;
+    width: 33%;
+}
+
+/***=================== Header =================***/
+
+header h1 {
+    color: #77a466;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 35px 18px 35px 210px;
+    text-transform: uppercase;
+}
+
+header h1 span {
+    color: black;
+}
+
+nav {
+    float: right;
+    padding: 40px 212px 45px 5px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    color: #77a466;
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 28px; 
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+img {
+    border: 4px #77a466;
+    border-style: solid none solid none;
+    display: block;
+    margin: auto;
+}
+
+/***================= Welcome ==================***/
+
+#welcome .full-width {
+    padding: 12px;
+    margin: 8px auto;
+    width: 1200px;
+}
+
+h2 span {
+    color: #77a466;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#welcome p {
+    line-height: 25px;
+    word-spacing: 2px;
+}
+
+/***================== Special ===================***/
+
+#special .full-width {
+    padding: 10px;
+    width: 1200px;
+}
+
+#special .third-width {
+    border: 1px lightgray;
+    border-style: solid none solid none;
+    padding: 30px 42px 28px 30px;
+    width: 325px;
+}
+
+#special .awesome {
+    border: 1px solid lightgrey;
+}
+
+#special h3 {
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 50px;
+}
+
+#special ul li {
+    color: #77a466;
+    font-size: 16px;
+    line-height: 40px;
+}
+
+#special p {
+    line-height: 23px;
+}
+
+/***==================== Footer ==================***/
+
+#powered .full-width {
+    clear: both;
+    padding: 20px;
+    margin: auto;
+    width: 1200px;
+}
+
+footer h3 {
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+footer h3 span {
+    color: #77a466;
+    font-family: 'Homemade Apple', cursive;
+    text-transform: lowercase;
+}
