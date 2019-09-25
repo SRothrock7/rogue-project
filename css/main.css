@@ -8,18 +8,18 @@ body {
 
 .full-width {
     margin: 0 auto;
-    width: 100%;
+    width: 1200px;
 }
 
 .half-width {
     float: left;
-    width: 50%;
+    width: 598px;
 }
 
 .third-width {
     float: left;
     height: 210px;
-    width: 33%;
+    width: 400px;
 }
 
 /***=================== Header =================***/
@@ -28,7 +28,7 @@ header h1 {
     color: #77a466;
     font-size: 30px;
     font-weight: bold;
-    padding: 35px 18px 35px 210px;
+    padding: 28px 210px 28px 10px;
     text-transform: uppercase;
 }
 
@@ -38,7 +38,7 @@ header h1 span {
 
 nav {
     float: right;
-    padding: 40px 212px 45px 5px;
+    padding: 35px 10px 35px 0;
 }
 
 nav ul li {
